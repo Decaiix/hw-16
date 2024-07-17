@@ -1,0 +1,14 @@
+*,*::before,*::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.bg-box{
+width: 100vw;
+height: 100vh;
+background-color: green;
+background-image: url(./imgs/hw16domikwlesu.webp),url(./imgs/hw16trawa.png),url(./imgs/hw16lamp.png),url(./imgs/hw16jez.webp),url(./imgs/hw16ponche.png);
+background-repeat: no-repeat,repeat-x,repeat-x,repeat-y,repeat-y;
+background-size: 650px 400px,300px 200px,50px 70px,40px 35px, 40px 35px;
+background-position: center,bottom,top,left, right;
+}
